@@ -30,7 +30,7 @@ Write a document, choose a date in the future and click on ``Submit document``, 
 Input the identifier, and click on ``Read deposited document``. If the date specified at encryption time is past you will be able to read the document, otherwise you will be asked to wait until the given date.
 
 ### Optional password
-You also have the option of choosing a password when you submit a document. Then don't forget to use the same password when you want to read the document.
+You also have the option of choosing a password when you submit a document. Do not forget to use the same password when you want to read the corresponding document.
 
 ## Screenshots
 <img src="screenshotpublicdisclosure1.png" width="90%" height="90%" />
