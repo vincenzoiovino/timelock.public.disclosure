@@ -13,7 +13,7 @@ Download the file `timelock.lib.js` from  [here](https://github.com/vincenzoiovi
 Run a webserver in your local machine and open the link ``index.html`` in the folder.
 
 ### Server-side
-The demo here assumes that there is another webserver of the type ``https://localhost:81`` (you can change the URL in the variable ``API_URL``) that when invoked on a path ``https://localhost:81/public.disclosure/s`` where ``s`` is an arbitrary ASCII string just returns ``ok``. This is a needed for the short URL service.
+The demo in this repo assumes that there is another webserver ``https://localhost:81`` (you can change the URL in the variable ``API_URL``) that when invoked on a path like ``https://localhost:81/public.disclosure/s`` where ``s`` is an arbitrary ASCII string just responds ``ok``. This is a needed for the short URL service.
 
 You can run this service with the command:
 ```bash
