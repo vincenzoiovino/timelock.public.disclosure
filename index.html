@@ -1,0 +1,102 @@
+		<!DOCTYPE html>
+	<html lang="en">
+	  <head>
+	    <meta charset="UTF-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <title>Timelock.Public.Disclosure</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>,
+	    <link rel="stylesheet" href="./styles.css" />
+	    <script
+	      src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.1-alpha.5/web3.min.js"
+	      integrity="sha512-NfffVWpEqu1nq+658gzlJQilRBOvjs+PhEKSjT9gkQXRy9OfxI2TOXr33zS7MgGyTpBa5qtC6mKJkQGd9dN/rw=="
+	      crossorigin="anonymous"
+	      referrerpolicy="no-referrer"
+	    ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js" integrity="sha512-FDcVY+g7vc5CXANbrTSg1K5qLyriCsGDYCE02Li1tXEYdNQPvLPHNE+rT2Mjei8N7fZbe0WLhw27j2SrGRpdMg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	  </head>
+	  <body>
+	    <main>
+<div class="terminal-container">
+    <div class="terminal-header">
+      <div class="buttons">
+        <div id="minus" class="btn red">-</div>
+        <div id="plus" class="btn green">+</div>
+        <div id="instructions" class="btn yellow">?</div>
+       <center><p style="color: white">Timelock.Public.Disclosure desk</p></center>
+      </div>
+    </div>
+    <div class="terminal-content">
+	      <p id="status1" class="status" style="color: red">disconnected</p>
+	      <p id="status2" style="color: white"></p>
+		  <p id="status3"></p>
+          <p id="status4"></p>
+		  <p id="status5"></p>
+      <p id="last"></p>
+      <p id="copyright">&copyAragon ZK Research, 2023</p>
+	    </div>
+  </div>
+        <!-- Connect Wallet -->
+        <div class="container">
+          <div class="buttonswrapper">
+            <div class="buttonswrapperGrid">
+              <button id="metamask" class="button28">Connect and Get Info</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Load Testament -->
+          <div class="secondcontainer">
+          <div class="inputcontainer">
+            <input
+              id="idinput"
+              class="myinput"
+              placeholder="id (e.g., 1699822545509)..."
+            />
+          </div>
+          <div class="buttoncontainer">
+            <button type="button" id="loadButton" class="button64">Read deposited document</button>
+          </div>
+          <div class="secondcontainer">
+            <input
+              id="idpassword"
+              class="myinput"
+              placeholder="Password (optional)..."
+            />
+            <input
+              id="idconfirmedpassword"
+              class="myinput"
+              placeholder="Confirm password (optional)..."
+            />
+          </div>
+        <!-- Deposit a document -->
+          <div class="secondcontainer">
+          <div class="secondcontainer">
+        <form>
+         <p></p> 
+            <textarea id="documentinput" class="documentinput" placeholder="Write your document here..."></textarea>
+	 <div class="labelcontainer">
+         <label for="date">Choose a day in the future: </label>
+         <input type="date" id="date" name="future" value="2023-12-13"  max="2024-12-31" />
+         </div>
+          <div class="buttoncontainer">
+
+         <button type="button" id="submitButton" class="button49">Submit document</button>
+          </div>
+        </form>
+          </div>
+</object>
+</article>
+      </div>
+      </div>
+    </main>
+    <script type="module" src="./timelock.public.disclosure.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="./timelock.zone.lib.js"></script>
+<footer data-role="footer">
+    <center>
+ <img src="aragon.png" style="width:230px;height:auto;margin-top:20px"/>
+      </center>
+      </footer>
+</body>
+</html>
