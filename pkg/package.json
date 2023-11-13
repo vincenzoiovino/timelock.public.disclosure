@@ -1,0 +1,31 @@
+{
+  "name": "ecies-wasm",
+  "collaborators": [
+    "Weiliang Li <to.be.impressive@gmail.com>"
+  ],
+  "description": "A WASM binding for eciesrs",
+  "version": "0.2.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecies/rs-wasm"
+  },
+  "files": [
+    "ecies_wasm_bg.wasm",
+    "ecies_wasm.js",
+    "ecies_wasm.d.ts"
+  ],
+  "module": "ecies_wasm.js",
+  "homepage": "https://ecies.org/rs-wasm/",
+  "types": "ecies_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ],
+  "keywords": [
+    "secp256k1",
+    "crypto",
+    "ecc",
+    "ecies",
+    "cryptocurrency"
+  ]
+}
