@@ -1,5 +1,5 @@
 # Timelock.Public.Disclosure
-This repo contains an example of a web3 App that can use the [timelock.zone](https://www.timelock.zone) service to deposit timelock encrypted documents over Ethereum.
+This repo contains an example of a web3 App that can use the [timelock.zone](https://www.timelock.zone) service to deposit timelock encrypted documents over Ethereum with a GAS cost of only 67k. The trick to keep the GAS cost so low is to deposit on-chain only a shortned URL encoding the actual ciphertext. The shortner service is trusted only for keeping the hash alive but not for confidentiality.
 The document can be timelocked until a chosen date and additionally a password can be used to restrict the visibility.
 Timelock.zone is a public service built on [drand](https://drand.love) that publishes public keys for future timeframes whose corresponding secret keys will be released at the correpsonding time.
 See also [tlcs-c](https://github.com/aragonzkresearch/tlcs-c/), [tlcs-rust](https://github.com/aragonzkresearch/tlcs-rust/), [timelock.fs](https://github.com/vincenzoiovino/timelock.fs), [timelock.android.example](https://github.com/vincenzoiovino/Timelock.zone.AndroidExample/tree/master), and [TLCS Usage](https://github.com/aragonzkresearch/tlcs-c/blob/main/examples/howtoencrypt.md).
