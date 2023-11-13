@@ -34,5 +34,5 @@ You also have the option of choosing a password when you submit a document. Then
 
 ## Screenshots
 ## Screenshots
-<img src="screenshotpublicdisclosure1.jpg" width="80%" height="80%" />
+<img src="screenshotpublicdisclosure1.png" width="80%" height="80%" />
 
