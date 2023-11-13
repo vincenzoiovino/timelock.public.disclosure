@@ -6,9 +6,9 @@ app.use(nocache());
 app.use(cors());
 
 
-// start the express web server listening on 8082
+// start the express web server listening on 81
 app.listen(81, () => {
-    console.log('listening on 8082');
+    console.log('listening on 81');
 });
 console.log('timelock.public.disclosure server-side code running');
 app.get('/public.disclosure/*', async (req, res) => {
