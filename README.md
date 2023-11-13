@@ -20,7 +20,7 @@ You can run this service with the command:
 node server-side/public.disclosure.service.js
 ```
 The service depends on the ``node.js`` modules `express`, `cors` and `nocache`.
-However, as you can inspect from the code the server is quite trivial and equivalently you can replace it with your favourite web server serving the same path on the same port.
+As you can inspect from the code the server is quite trivial and equivalently you can replace it with your favourite web server serving the same path on the same port.
 
 ## Usage
 First, connect the App to your wallet.
