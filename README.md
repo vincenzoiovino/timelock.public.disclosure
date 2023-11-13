@@ -7,7 +7,7 @@ Timelock.zone is a public service built on [drand](https://drand.love) that publ
 ## Compilation and setup
 We will use the [ecies-wasm](https://github.com/ecies/rs-wasm) package.
 We suppose that the library has been compiled under the folder ``pkg``. To ease your task, the repo already incluses a precompiled version of the aforementioned ``wasm`` library.
-``` 
+
 Download the file `timelock.lib.js` from  [here](https://github.com/vincenzoiovino/TimeLockJavaScriptAPI/blob/main/src/timelock.zone.lib.js) and copy it into the folder `examples/js`. A (possibly non-updated version) of the latter file is also provided in this repository in the same folder.
 
 Run a webserver in your local machine and open the link ``index.html`` in the folder.
