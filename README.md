@@ -33,5 +33,5 @@ Input the identifier, and click on ``Read deposited document``. If the date spec
 You also have the option of choosing a password when you submit a document. Then don't forget to use the same password when you want to read the document.
 
 ## Screenshots
-<img src="screenshotpublicdisclosure1.png" width="85%" height="85%" />
+<img src="screenshotpublicdisclosure1.png" width="90%" height="90%" />
 
