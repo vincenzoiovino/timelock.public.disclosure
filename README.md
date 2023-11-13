@@ -32,4 +32,7 @@ Input the identifier, and click on ``Read deposited document``. If the date spec
 ### Optional password
 You also have the option of choosing a password when you submit a document. Then don't forget to use the same password when you want to read the document.
 
+## Screenshots
+## Screenshots
+<img src="screenshotpublicdisclosure1.jpg" width="80%" height="80%" /
 
