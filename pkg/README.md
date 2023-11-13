@@ -28,8 +28,6 @@ const decrypted = ecies.decrypt(sk, encrypted);
 alert("decrypted: " + decrypted);
 ```
 
-Check [the example](./example) for how to use it in browsers.
-
 ## API
 
 ```ts
@@ -44,7 +42,3 @@ export function decrypt(sk: Uint8Array, msg: Uint8Array): Uint8Array;
 wasm-pack build
 wasm-pack test --node
 ```
-
-## Changelog
-
-See [CHANGELOG.md](./CHANGELOG.md).
