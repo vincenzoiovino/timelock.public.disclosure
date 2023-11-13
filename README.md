@@ -10,7 +10,7 @@ We suppose that the library has been compiled under the folder ``pkg``. To ease 
 
 Download the file `timelock.lib.js` from  [here](https://github.com/vincenzoiovino/TimeLockJavaScriptAPI/blob/main/src/timelock.zone.lib.js) and copy it into the main folder. A (possibly non-updated version) of the latter file is also provided in this repository in the same folder.
 
-Run a webserver in your local machine and open the link ``index.html`` in the folder.
+Run a webserver in your local machine and open the link ``index.html`` in your favourite browser.
 
 ### Server-side
 The demo in this repo assumes that there is another webserver ``https://localhost:81`` (you can change the URL in the variable ``API_URL``) that when invoked on a path like ``https://localhost:81/public.disclosure/s`` where ``s`` is an arbitrary ASCII string just responds ``ok``. This is a needed for the short URL service.
